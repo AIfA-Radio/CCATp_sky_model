@@ -1,7 +1,7 @@
 General informations
 ====================
 
-The readme files can be found in README.rst
+The readme file can be found in README.rst
 
 The Original code can be found on : https://github.com/MaudeCharmetant/CCATp_sky_model  and was created by Jens Erler and Maude Charmetant. 
 
