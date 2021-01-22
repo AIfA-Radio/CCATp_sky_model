@@ -1,0 +1,2 @@
+Examples notebook are present here to help you understand how each function of the code is working.
+A blackbox use of the function ccatp_sky_model is also totally possible.
