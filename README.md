@@ -12,3 +12,7 @@ The ccatp_sky_model is free software made available under the MIT License. For d
 the LICENSE file.
 
 
+Maintenance 
+===========
+
+In case of issues, questions, bugs correction or suggestions for improvement please contact : mcharmetant@astro.uni-bonn.de
