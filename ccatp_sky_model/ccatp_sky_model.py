@@ -614,10 +614,8 @@ def simulate_cmb(freq, cl_file = None, lensed = True, nside_out = 4096, lmax = N
          
     '''
     Function that computes a CMB map from a power spectrum.
-
     Parameters
     ----------
-
     freq: float or float array
         Frequency of the output map in Hz. 
     cl_file: str or array, optional 
@@ -653,7 +651,6 @@ def simulate_cmb(freq, cl_file = None, lensed = True, nside_out = 4096, lmax = N
     -------
     float array
         Healpix allsky map contaning the CMB map at a given frequency. 
-
     '''
                 
     if cl_file is not None:
@@ -668,7 +665,7 @@ def simulate_cmb(freq, cl_file = None, lensed = True, nside_out = 4096, lmax = N
         TT_final = np.insert(TT,[0],[0,0])
 
         #Compute the CMB map from the power spectrum :
-        CMB = hp.sphtfunc.synfast(TT_final, nside_out, lmax = lmax)
+        CMB = hp.sphtfunc.synfast(TT_final, nside_out, lmax = lmax)/1e6
  
     else: 
 
